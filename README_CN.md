@@ -216,3 +216,16 @@ Quartus Linux指南 -  Edison Cristovao  -  https://github.com/EdisonCristovao/q
 如何在Ubuntu 16.04 LTS上安装Quartus和modelsim  -  https://www.youtube.com/watch?v=uXwCPoqjpiY
 
 
+# [Ubuntu] 修正Modelsim Linux - 編輯器editor字體過小
+
+LinuxMint 18.3
+Modelsim 10.5c
+
+步驟：
+＄ vim ~/.modelsim
+找到 textFontV2 {{DejaVu Sans} 12}
+改為 textFontV2 {{DejaVu Sans} -12}
+也可調整字型大小 textFontV2 {{DejaVu Sans} -8}
+存檔離開，重啟modelsim
+
+
