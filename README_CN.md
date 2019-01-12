@@ -19,6 +19,7 @@ Quartus，主要是从Quartus II到Quartus Prime的变化开始有64位*系统�
     $ sudo dpkg --add-architecture i386
     $ sudo apt update
     $ sudo apt install libxft2：i386 libxext6：i386 libncurses5：i386 bzip2：i386
+    $ sudo apt install libstdc++-6-dev:i386
 
 对于libpng12-0 *库安装，尤其是对于较新的操作系统，例如Ubuntu 18.04，必须从外部下载并手动安装库，因为已经从系统中停止了这样的库。要下载并安装库，请在终端中运行以下命令：
 
